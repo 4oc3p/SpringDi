@@ -11,6 +11,7 @@ import java.util.List;
  * Created by 4oc3p on 18.05.2017. autoservice
  */
 public class CarDAOImplement implements CarDAOInterface {
+
     private List<Car> cars = Arrays.asList(
             new CarSedan("Mazda", 11, 100),
             new CarSedan("Opel", 25, 88),
@@ -18,7 +19,7 @@ public class CarDAOImplement implements CarDAOInterface {
     );
 
     @Override
-    public List<Car> getAllCars(){
+    public List<Car> getAllCars() {
         return cars;
     }
 }

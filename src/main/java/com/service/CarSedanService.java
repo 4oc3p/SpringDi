@@ -11,6 +11,7 @@ import java.util.List;
  * Created by 4oc3p on 18.05.2017. autoservice
  */
 public class CarSedanService implements CarServiceInterface {
+
     private CarDAOInterface carDAO;
 
     public CarSedanService() {
@@ -29,10 +30,10 @@ public class CarSedanService implements CarServiceInterface {
     }
 
     @Override
-    public List<Car> getAllCars(){
+    public List<Car> getAllCars() {
         List<Car> cars = new ArrayList<>();
         for (Car car : carDAO.getAllCars()) {
-            if(car instanceof CarSedan){
+            if (car instanceof CarSedan) {
                 cars.add((CarSedan) car);
             }
         }

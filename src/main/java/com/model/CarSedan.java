@@ -4,6 +4,7 @@ package com.model;
  * Created by 4oc3p on 18.05.2017. autoservice
  */
 public class CarSedan extends Car {
+
     private int speed;
 
     public CarSedan(String model, int age, int speed) {
