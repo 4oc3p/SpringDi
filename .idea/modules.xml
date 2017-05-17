@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autoservice.iml" filepath="$PROJECT_DIR$/.idea/modules/autoservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autoservice_main.iml" filepath="$PROJECT_DIR$/.idea/modules/autoservice_main.iml" group="autoservice" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/autoservice_test.iml" filepath="$PROJECT_DIR$/.idea/modules/autoservice_test.iml" group="autoservice" />
+    </modules>
+  </component>
+</project>
