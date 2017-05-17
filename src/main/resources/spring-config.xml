@@ -2,8 +2,14 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-  <bean name="carService1" class="com.service.CarSedanService" autowire="byType"/>
-  <bean name="carService2" class="com.service.CarCargoService" autowire="byType"/>
+  <!--<bean name="carService1" class="com.service.CarSedanService" autowire="byType"/>-->
+  <!--<bean name="carService2" class="com.service.CarCargoService" autowire="byType"/>-->
+  <bean name="carService1" class="com.service.CarSedanService">
+    <property name="carDAO" ref="carDao"/>
+  </bean>
+  <bean name="carService2" class="com.service.CarCargoService">
+    <property name="carDAO" ref="carDao"/>
+  </bean>
   <bean name="carDao" class="com.dao.CarDAOImplement"/>
 
 </beans>

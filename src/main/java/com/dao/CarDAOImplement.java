@@ -15,7 +15,7 @@ public class CarDAOImplement implements CarDAOInterface {
     private List<Car> cars = Arrays.asList(
             new CarSedan("Mazda", 11, 100),
             new CarSedan("Opel", 25, 88),
-            new CarCargo("Man", 16, 2000)
+            new CarCargo("MAN", 16, 2000)
     );
 
     @Override

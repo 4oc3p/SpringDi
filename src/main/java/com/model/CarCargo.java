@@ -22,6 +22,6 @@ public class CarCargo extends Car {
 
     @Override
     public void carMove() {
-        System.out.printf("%s, age - %d, capacity %d\n", getModel(), getAge(), capacity);
+        System.out.printf("%s moves, age - %d, capacity %d\n", getModel(), getAge(), capacity);
     }
 }
